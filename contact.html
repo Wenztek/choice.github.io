@@ -77,10 +77,10 @@
                             <a href="rates.html"><i class="fa fa-money"></i><br>Rates</a>
                         </li>
                         <li>
-                            <a href="policies.html" target="_blank"><i class="fa fa-check"></i><br>Policies</a>
+                            <a href="policies.html"><i class="fa fa-check"></i><br>Policies</a>
                         </li>
                         <li>
-                            <a href="gallery.html"><i class="fa fa-photo"></i><br>Photo Gallery</a>
+                            <a href="gallery.html"><i class="fa fa-photo"></i><br>Gallery</a>
                         </li>
                         <li class="active">
                             <a href="contact.html"><i class="fa fa-envelope"></i><br>Contact</a>
@@ -107,16 +107,43 @@
         <div class="contact-us-container">
         	<div class="container">
 	            <div class="row">
-	                <div class="col-lg-6 contact-form wow fadeInLeft">
-	                    <h3>Choice Storage Solutions</h3>
-                        <p><i class="fa fa-map-marker"></i> 
-                            <a href="https://www.google.ca/maps/place/50%C2%B041'08.7%22N+113%C2%B052'53.1%22W/@50.685754,-113.881421,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0">80135 Maple Leaf Road <br/>
-                            &nbsp;&nbsp; Box 42 <br/>
-                            &nbsp;&nbsp; Aldersyde, AB  T0L 0A0</a>
-                        </p>
-                        <p><i class="fa fa-phone"></i>  403-652-2552</p>
-                        <p><i class="fa fa-envelope"></i>  <a href="mailto:choice@telus.net">choice@telus.net</a></p>
+                    <div class="col-lg-6 contact-address wow fadeIn">
+                        <h3>Choice Storage Solutions</h3>
+                        <table class="table contact-table">
+                            <tr>
+                                <td style="width: 15px;"><i class="fa fa-map-marker"></i></td>
+                                <td>
+                                    <a href="https://www.google.ca/maps/place/50%C2%B041'08.7%22N+113%C2%B052'53.1%22W/@50.685754,-113.881421,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" target="_blank">
+                                    80135 Maple Leaf Road <br/>
+                                    Box 42 <br/>
+                                    Aldersyde AB  T0L 0A0</a>
+                                </td>                               
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-phone"></i></td>
+                                <td>403-652-2552</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-envelope"></i></td>
+                                <td><a href="mailto:choice@telus.net">choice@telus.net</a></td>
+                            </tr>
+                        </table>
+                        <div class="map"></div>
+                        
+                        <h3>Directions</h3>
 
+                        <h4>From Calgary</h4>
+                        <p>
+                            <ul>
+                                <li>Take Highway 2 South</li>
+                                <li>Turn West at the Petro Can</li>
+                                <li>Turn South on 2A, 2 kms</li>
+                                <li>Turn East at Aldersyde Turnoff (Maple Leaf Road)</li>
+                                <li>Road ends at Choice Storage Solutions</li>
+                            </ul>
+                        </p>
+                    </div>
+	                <div class="col-lg-6 contact-form wow fadeIn">
                         <h3>Contact Us</h3>
 
 	                    <form role="form" action="assets/contact.php" method="post">
@@ -139,23 +166,7 @@
 	                        <button type="submit" class="btn">Send</button>
 	                    </form>
 	                </div>
-	                <div class="col-lg-6 contact-address wow fadeInUp">
-	                    <h3>We Are Here</h3>
-	                    <div class="map"></div>
-	                    
-                        <h3>Directions</h3>
-
-                        <h4>From Calgary</h4>
-                        <p>
-                            <ul>
-                                <li>Take Highway 2 South</li>
-                                <li>Turn West at the Petro Can</li>
-                                <li>Turn South on 2A, 2 kms</li>
-                                <li>Turn East at Aldersyde Turnoff (Maple Leaf Road)</li>
-                                <li>Road ends at Choice Storage Solutions</li>
-                            </ul>
-                        </p>
-	                </div>
+	                
 	            </div>
 	        </div>
         </div>
@@ -164,32 +175,54 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 footer-box wow fadeInUp">
-                        <h4>About Us</h4>
+                    <div class="col-sm-4 footer-box wow fadeInUp">
+                        <h4>Rental Inquiries</h4>
                         <div class="footer-box-text">
                             <p>
-                                Choice Storage Solutions, formerly Aldersyde Mini Storage, is locally owned. The new owners have a vision of providing their customers with a solution for all their storage needs, while continuing to offer low rates.
+                                Click Here to Request a Rental today!
                             </p>
-                            <p><a href="/index.html#about">Read more...</a></p>
                         </div>
                     </div>
-                    <div class="col-sm-3 footer-box wow fadeInDown">
+
+                    <div class="col-sm-4 footer-box wow fadeInDown">
                         <h4>Hours of Operation</h4>
                         <div class="footer-box-text footer-box-text-contact">
-                            <p><i class="fa fa-clock-o"></i> <b>Monday-Saturday</b> - 10am to 5pm</p>
-                            <p><i class="fa fa-clock-o"></i> <b>Sunday</b> - Closed</p>
+                            <!-- <p><i class="fa fa-clock-o"></i> <b>Monday-Saturday</b> - 10am to 5pm</p>
+                            <p><i class="fa fa-clock-o"></i> <b>Sunday</b> - By appointment only.</p> -->
+                            
+                            <table class="table hours-table" style="width: 100%;">
+                                <tr id="monday"><td>Monday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="tuesday"><td>Tuesday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="wednesday"><td>Wednesday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="thursday"><td>Thursday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="friday"><td>Friday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="saturday"><td>Saturday</td><td>10:00 AM - 5:00 PM</td></tr>
+                                <tr id="sunday"><td>Sunday</td><td>By appt. only</td></tr>
+                            </table>
                         </div>
                     </div>
-                    <div class="col-sm-3 footer-box wow fadeInDown">
+                    <div class="col-sm-4 footer-box wow fadeInDown">
                         <h4>Contact Us</h4>
                         <div class="footer-box-text footer-box-text-contact">
-                            <p><i class="fa fa-map-marker"></i> 
-                                <a href="https://www.google.ca/maps/place/50%C2%B041'08.7%22N+113%C2%B052'53.1%22W/@50.685754,-113.881421,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0">80135 Maple Leaf Road <br/>
-                                Box 42 <br/>
-                                Aldersyde AB  T0L 0A0</a>
-                            </p>
-                            <p><i class="fa fa-phone"></i> 403-652-2552</p>
-                            <p><i class="fa fa-envelope"></i><a href="mailto:choice@telus.net">choice@telus.net</a></p>
+                            <table class="table contact-table">
+                                <tr>
+                                    <td style="width: 15px;"><i class="fa fa-map-marker"></i></td>
+                                    <td>
+                                        <a href="https://www.google.ca/maps/place/50%C2%B041'08.7%22N+113%C2%B052'53.1%22W/@50.685754,-113.881421,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" target="_blank">
+                                        80135 Maple Leaf Road <br/>
+                                        Box 42 <br/>
+                                        Aldersyde AB  T0L 0A0</a>
+                                    </td>                               
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-phone"></i></td>
+                                    <td>403-652-2552</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-envelope"></i></td>
+                                    <td><a href="mailto:choice@telus.net">choice@telus.net</a></td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>

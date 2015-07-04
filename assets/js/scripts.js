@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function() {
 	
 	/*
@@ -144,6 +143,42 @@ jQuery(document).ready(function() {
             }
         });
     });
+
+	/*
+		Hours of Operation
+	*/
+	var today = new Date().getDay();
+	if (today == 6) {
+		$("#saturday").css("color", "#000");
+	}
+	if (today == 6) {
+		$("#saturday").css("color", "#000");
+	}
+
+	switch (new Date().getDay()) {
+    case 0:
+        $("#sunday").css("color", "#000");
+        break; 
+    case 1:
+        $("#monday").css("color", "#000");
+        break;
+    case 2:
+        $("#tuesday").css("color", "#000");
+        break;
+    case 3:
+        $("#wednesday").css("color", "#000");
+        break; 
+    case 4:
+        $("#thursday").css("color", "#000");
+        break;
+    case 5:
+        $("#friday").css("color", "#000");
+        break;
+    case 6:
+        $("#saturday").css("color", "#000");
+        break; 
+}
+
 	
 });
 
@@ -211,3 +246,6 @@ jQuery(window).load(function() {
 	});
 	
 });
+
+
+

@@ -166,6 +166,17 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #6D7F6C
 	text-indent: -99999px;
 }
 
+.hours-table td, .hours-table th {
+    border: none !important;
+    padding: 2px !important;
+}
+
+.contact-table td, .contact-table th {
+    border: none !important;
+    padding: 3px 2px 3px 2px !important;
+}
+
+
 /***** Slider *****/
 
 .slider-container {
