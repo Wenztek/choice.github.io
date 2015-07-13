@@ -513,6 +513,11 @@ footer {
 	height: 26px;
 }
 
+.request-btn, .contact-btn {
+    clear: both;
+    margin-top: 5px;
+}
+
 /* Flickr feed */
 .flickr-feed {
     margin: 16px 0 0 0;
