@@ -122,13 +122,17 @@ a.big-link-3:active {
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
+ .main-content {
+    top: 60px;
+ }
+
 ul.navbar-nav {
 	font-size: 14px;
 	color: #888;
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: #5d5d5d; }
+ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-bottom: 5px solid #fff; color: #5d5d5d; }
 ul.navbar-nav li.active a { background: #f8f8f8; border-color: #6D7F6C; color: #5d5d5d; }
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: #6D7F6C; border-color: #6D7F6C; color: #fff; outline: 0; }
@@ -176,11 +180,55 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #6D7F6C
     padding: 3px 2px 3px 2px !important;
 }
 
+.top-bar {
+    height: 28px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.top-bar a {
+    color: #aaa;
+}
+
+.top-bar .contact-details li {
+    display: inline-block;
+}
+
+.top-bar .contact-details li a:before {
+    position: relative;
+    content: "|";
+    font-size: 12px;
+    margin: 0 3px;
+    top: -1px;
+    color: #ddd;
+}
+
+.top-bar .contact-details li a:before {
+    color: #aaa;
+}
+
+.top-bar .contact-details li:first-child a:before {
+    display: none;
+}
+
+.top-bar .contact-details li a {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.fixed-header {
+    opacity: 0.95;
+    box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+}
+
 
 /***** Slider *****/
 
 .slider-container {
     margin: 0 auto;
+    margin-top: 135px;
     background: #6D7F6C url(../img/pattern.jpg) left top repeat;
     background: #6D7F6C;
     z-index: 0;

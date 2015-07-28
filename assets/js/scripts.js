@@ -144,6 +144,11 @@ jQuery(document).ready(function() {
         });
     });
 
+	$('.request-rental-btn').click(function () {
+		alert('test');
+
+	});
+
 	/*
 		Hours of Operation
 	*/
