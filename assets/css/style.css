@@ -1,14 +1,3 @@
-/*
- *
- * Template Name: Andia
- * Template URI: http://azmind.com
- * Description: Andia - Responsive Agency Template
- * Author: Anli Zaimi
- * Author URI: http://azmind.com
- *
- */
-
-
 body {
     background: #fff;
     text-align: center;
@@ -122,17 +111,13 @@ a.big-link-3:active {
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
- .main-content {
-    top: 60px;
- }
-
 ul.navbar-nav {
 	font-size: 14px;
 	color: #888;
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-bottom: 5px solid #fff; color: #5d5d5d; }
+ul.navbar-nav li a { background: #fff; border-bottom: 5px solid #fff; color: #5d5d5d; }
 ul.navbar-nav li.active a { background: #f8f8f8; border-color: #6D7F6C; color: #5d5d5d; }
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: #6D7F6C; border-color: #6D7F6C; color: #fff; outline: 0; }
@@ -164,8 +149,9 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #6D7F6C
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-	width: 290px;
-	height: 106px;
+    margin-top: 8px;
+	width: 280px;
+	height: 70px;
 	background: url(../img/logo.png) left center no-repeat;
 	text-indent: -99999px;
 }
@@ -228,7 +214,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #6D7F6C
 
 .slider-container {
     margin: 0 auto;
-    margin-top: 135px;
+    margin-top: 118px;
     background: #6D7F6C url(../img/pattern.jpg) left top repeat;
     background: #6D7F6C;
     z-index: 0;
@@ -603,6 +589,7 @@ footer {
 
 .page-title-container {
     margin: 0 auto;
+    margin-top: 118px;
     padding: 30px 0 35px 0;
     /*background: #f8f8f8 url(../img/pattern.jpg) left top repeat;*/
     background: #6D7F6C;
