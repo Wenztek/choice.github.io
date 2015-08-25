@@ -37,15 +37,16 @@
 	.navbar-collapse { border: 0; }
 	.navbar-toggle { margin-top: 16px; }
 	.navbar-toggle .icon-bar { background: #5d5d5d; }
-	ul.navbar-nav li a { padding: 10px 10px; text-align: left; }
+	ul.navbar-nav li a { padding: 5px 10px; text-align: left; line-height: 25px; }
 	ul.navbar-nav li a br { display: none; }
 	ul.navbar-nav li a i { padding-right: 7px; }
 	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header { padding: 15px 20px; }
 	
 	.slider-2-text h1, .slider-2-text p { padding-left: 15px; padding-right: 15px; }
 	
-	.page-title-container p { display: block; margin: 10px 0 6px 0; line-height: 24px; }
-	
+	.page-title-container p { display: block; margin: 10px 0 6px 0; line-height: 24px; margin-top: 107px; }
+	.page-title-container { margin-top: 107px; }
+
 	.portfolio-masonry { padding: 0; }
     .portfolio-box { width: 100%; margin: 30px 0 0 0; padding: 0 30px; }
 	
@@ -65,12 +66,17 @@
 
 }
 
+@media (max-width: 500px) {
+
+	.email-header { display: none; }
+
+}
+
 @media (max-width: 400px) {
 	
 	.flex-caption { display: none; }
 	
 }
-
 
 /* Retina-ize images/icons */
 
